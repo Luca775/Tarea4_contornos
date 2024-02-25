@@ -10,6 +10,9 @@ public class CCuenta {
     private double saldo;
     private double tipoInterés;
 
+    /**
+     * Contructor vacío
+     */
     public CCuenta()
     {
     }
@@ -61,7 +64,7 @@ public class CCuenta {
     }
 
     /**
-     *
+     *obtenemos el saldo
      * @return devuelve el saldo actual de la cuenta bancaria
      */
     public double getSaldo() {
